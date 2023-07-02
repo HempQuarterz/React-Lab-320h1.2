@@ -84,10 +84,10 @@ a.continue {
 
   article p::first-letter {
     color: lightgray;
-    font-size: 4rem; /* adjust the font size as desired */
-    float: left; /* float the drop cap to the left */
-    line-height: .5; /* adjust the line height as desired */
-    padding-right: 0.2em; /* add some spacing between the drop cap and the text */
+    font-size: 4rem;
+    float: left;
+    line-height: .5; 
+    padding-right: 0.2em;
   }
   
 
