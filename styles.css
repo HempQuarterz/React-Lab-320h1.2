@@ -1,0 +1,94 @@
+body {
+    min-height: 100 vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    border-left: 5px solid lightgray;
+}
+
+header, main, footer {
+    padding: 1rem 2rem;
+}
+
+h1 {
+    color: tomato; 
+    font-size: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+.top-list {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-list a {
+    color: lightgrey;
+}
+
+.bottom-list {
+    padding: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-list a {
+    color: tomato;
+}
+
+.top-article h1 {
+    font-size: 40px;
+    color: black;
+}
+
+.top-article h2, p {
+    color: lightslategray
+}
+
+.top-article{
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+.bottom-article h1 {
+    font-size: 35px;
+}
+
+.bottom-article h2,p {
+    color: lightslategray
+}
+
+.bottom-article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+a.continue {
+    text-align: right;
+    font-weight: bold;
+    color: tomato;
+    margin-left: auto;
+}
+
+.continue-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  article p::first-letter {
+    color: lightgray;
+    font-size: 4rem; /* adjust the font size as desired */
+    float: left; /* float the drop cap to the left */
+    line-height: .5; /* adjust the line height as desired */
+    padding-right: 0.2em; /* add some spacing between the drop cap and the text */
+  }
+  
+
+
